@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отметка посещаемости</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Отметка посещаемости</h1>
+
+        <!-- Поле для ввода названия дисциплины -->
+        <label for="subject">Название дисциплины:</label>
+        <input type="text" id="subject" placeholder="Введите название дисциплины">
+
+        <!-- Поля для ввода даты и времени -->
+        <label for="attendance-date">Дата:</label>
+        <input type="date" id="attendance-date">
+        
+        <label for="attendance-time">Время:</label>
+        <input type="time" id="attendance-time">
+
+        <table id="attendance-table">
+            <thead>
+                <tr>
+                    <th>Имя студента</th>
+                    <th>Посещаемость</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Афанасьев Александр</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Дмитрий Бубякин</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Дархан Васильев</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Максим Гараничев</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Алисия Герасимова</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Айтал Данилов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Вячеслав Другин</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Айаал Жараев</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Камилл Иванов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Ариан Касенов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Петр Колесов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Иван Корякин</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Вадим Левченко</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Юрий Макаров</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Алгыс Максимов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Евдокия Нификорова</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Айаан Николаев</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Алексей Ноенохов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Борис Текеянов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Максим Тумусов</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <tr>
+                    <td>Илья Фомин</td>
+                    <td><input type="checkbox" class="attendance-checkbox"></td>
+                </tr>
+                <!-- Можно добавить больше студентов здесь -->
+            </tbody>
+        </table>
+        <button id="save-attendance">Сохранить посещаемость</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
